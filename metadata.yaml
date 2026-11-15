@@ -17,7 +17,7 @@ homepage: "https://feasible.lol"
 documentation: "https://github.com/Feasible-Analytics/feasible-gtm-template#readme"
 
 versions:
-  - sha: 0000000000000000000000000000000000000000
+  - sha: 719b59440fa798df29f65127383cc74c6123ac7d
     changeNotes: |-
       First release.
 
