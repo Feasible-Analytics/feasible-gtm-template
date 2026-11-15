@@ -1,0 +1,30 @@
+#
+# metadata.yaml
+# The Community Template Gallery manifest for the Feasible Analytics tag template.
+#
+# Created: 2026-08-30
+# Copyright (c) 2026 Cloudmanic Labs, LLC. All rights reserved.
+#
+# Licensed under the Apache Licence, Version 2.0. See LICENSE in this folder.
+#
+# The gallery reads this file from the main branch of the public repository,
+# Feasible-Analytics/feasible-gtm-template, and matches each entry in `versions`
+# to a commit there. Each sha is the commit in that repository that carries the
+# released template.tpl. Newest first.
+#
+
+homepage: "https://feasible.lol"
+documentation: "https://github.com/Feasible-Analytics/feasible-gtm-template#readme"
+
+versions:
+  - sha: 0000000000000000000000000000000000000000
+    changeNotes: |-
+      First release.
+
+      Two tag types: load the tracker script, and send an event.
+
+      Custom properties, revenue with a currency, hash routing, manual
+      pageviews and counting localhost. A configurable analytics host and
+      script path for self-hosted instances and first-party proxies.
+
+      Licensed under the Apache Licence, Version 2.0.
